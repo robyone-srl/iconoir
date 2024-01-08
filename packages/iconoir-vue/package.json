@@ -1,6 +1,6 @@
 {
   "name": "@iconoir/vue",
-  "version": "7.0.3",
+  "version": "7.3.0",
   "description": "Vue library for Iconoir, the biggest open source icon library with tons of free icons.",
   "keywords": [
     "icons",
@@ -43,7 +43,7 @@
     "vue-demi": "^0.14.6"
   },
   "devDependencies": {
-    "vue": "^3.3.8"
+    "vue": "^3.3.12"
   },
   "peerDependencies": {
     "@vue/composition-api": ">=1.0.0-rc.1",

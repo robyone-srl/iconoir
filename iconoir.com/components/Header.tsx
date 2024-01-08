@@ -1,9 +1,9 @@
-import { Menu, Xmark } from 'iconoir-react';
+import { Menu, Xmark, Discord, Sparks } from 'iconoir-react';
 import { Heart } from 'iconoir-react/solid';
 import Link from 'next/link';
 import React from 'react';
 import styled, { css } from 'styled-components';
-import { SHARE_LINK } from '../lib/constants';
+import { DISCORD_LINK, SHARE_LINK } from '../lib/constants';
 import { media } from '../lib/responsive';
 import { AnimatedSvg } from './AnimatedSvg';
 import { ResetButton } from './Button';
@@ -19,6 +19,19 @@ export function Header({ currentVersion }: HeaderProps) {
 
   return (
     <Container>
+      <Banner>
+        <Sparks></Sparks>
+        <a
+          href={
+            'https://lucaburgio.com/join?utm_source=iconoir&utm_medium=join-head-banner'
+          }
+          target={'_blank'}
+          rel={'noreferrer'}
+        >
+          Access to the latest updates on new icons and ideas. Join the
+          newsletter.
+        </a>
+      </Banner>
       <HeaderLeft>
         <Link href={'/'}>
           <LogoContainer>
@@ -54,6 +67,9 @@ export function Header({ currentVersion }: HeaderProps) {
             <span>X (Twitter)</span>
           </a>
         </Share>
+        <a href={DISCORD_LINK}>
+          <StyledDiscord $isMobile />
+        </a>
         <MobileMenuButton onClick={() => setMenuVisible((v) => !v)}>
           {menuVisible ? <Xmark /> : <Menu />}
         </MobileMenuButton>
@@ -61,6 +77,19 @@ export function Header({ currentVersion }: HeaderProps) {
     </Container>
   );
 }
+
+const StyledDiscord = styled(Discord)<{ $isMobile?: boolean }>`
+  display: none;
+  ${media.lg} {
+    display: flex;
+    margin: 0 0 0 16px;
+    &:hover {
+      scale: 1.1;
+      transition: 0.2s;
+      color: #7289da;
+    }
+  }
+`;
 
 export const LogoContainer = styled.div`
   position: relative;
@@ -71,6 +100,26 @@ export const LogoContainer = styled.div`
   &:hover {
     scale: 1.1;
     transition: 0.2s;
+  }
+`;
+
+export const Banner = styled(Text15)`
+  display: none;
+  ${media.lg} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    background: var(--g5);
+    color: var(--g0);
+    font-weight: 500;
+    position: absolute;
+    width: 100%;
+    text-decoration: underline;
+    top: 0;
+  }
+  > * {
+    margin: 0 4px;
   }
 `;
 
@@ -136,6 +185,9 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  ${media.lg} {
+    margin-top: 40px;
+  }
 `;
 const HeaderItem = styled.div`
   flex: 1;

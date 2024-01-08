@@ -1,6 +1,6 @@
 {
   "name": "iconoir-react",
-  "version": "7.0.3",
+  "version": "7.3.0",
   "description": "React library for Iconoir, the biggest open source icon library with tons of free icons.",
   "keywords": [
     "icons",
@@ -41,7 +41,7 @@
     "dist"
   ],
   "devDependencies": {
-    "@types/react": "^18.2.38"
+    "@types/react": "^18.2.45"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17 || ^18"

@@ -1,3 +1,85 @@
+<a name="v7.3.0"></a>
+# [v7.3.0](https://github.com/iconoir-icons/iconoir/releases/tag/v7.3.0) - 30 Dec 2023
+
+24 new icons: 
+
+- `app-notification-solid`
+- `bubble-xmark-solid`
+- `chat-bubble-check-solid`
+- `chat-bubble-empty-solid`
+- `chat-bubble-question-solid`
+- `chat-bubble-solid`
+- `chat-bubble-translate-solid`
+- `chat-bubble-warning-solid`
+- `chat-bubble-xmark-solid`
+- `chat-lines-solid`
+- `chat-minus-in-solid`
+- `chat-plus-in-solid`
+- `facetime-solid`
+- `mail-open-solid`
+- `mail-solid`
+- `message-alert-solid`
+- `message-solid`
+- `message-text-solid`
+- `multi-bubble-solid`
+- `podcast-solid`
+- `quote-message-solid`
+- `quote-solid`
+- `send-diagonal-solid`
+- `send-solid`
+
+4 icons fixed:
+
+- `web-window-energy-consumption`
+- `web-window-xmark`
+- `web-window`
+- `hand-brake`
+
+[Changes][v7.3.0]
+
+
+<a name="v7.2.0"></a>
+# [v7.2.0](https://github.com/iconoir-icons/iconoir/releases/tag/v7.2.0) - 16 Dec 2023
+
+8 new icons: 
+
+- `ice-cream-solid`
+- `ice-cream`
+- `mastodon`
+- `meter-arrow-down-right`
+- `rhombus-arrow-right-solid`
+- `rhombus-arrow-right`
+- `u-turn-arrow-left`
+- `u-turn-arrow-right`
+
+Fixed some SVG properties on:
+- `airplane-rotation`
+
+Updated 5 icons:
+- `headset-bolt`
+- `headset-help`
+- `headset-warning`
+- `headset`
+- `mac-os-window`
+
+[Changes][v7.2.0]
+
+
+<a name="v7.1.0"></a>
+# [v7.1.0](https://github.com/iconoir-icons/iconoir/releases/tag/v7.1.0) - 02 Dec 2023
+
+Added 6 new icons:
+
+- `asterisk`
+- `dns`
+- `hashtag`
+- `peerlist`
+- `polar-sh`
+- `x`
+
+[Changes][v7.1.0]
+
+
 <a name="v7.0.3"></a>
 # [v7.0.3](https://github.com/iconoir-icons/iconoir/releases/tag/v7.0.3) - 21 Nov 2023
 
@@ -1426,6 +1508,9 @@ fix: changed stroke property from `black` to `currentColor`.
 [Changes][v4.2]
 
 
+[v7.3.0]: https://github.com/iconoir-icons/iconoir/compare/v7.2.0...v7.3.0
+[v7.2.0]: https://github.com/iconoir-icons/iconoir/compare/v7.1.0...v7.2.0
+[v7.1.0]: https://github.com/iconoir-icons/iconoir/compare/v7.0.3...v7.1.0
 [v7.0.3]: https://github.com/iconoir-icons/iconoir/compare/v7.0.2...v7.0.3
 [v7.0.2]: https://github.com/iconoir-icons/iconoir/compare/v7.0.1...v7.0.2
 [v7.0.1]: https://github.com/iconoir-icons/iconoir/compare/v7.0.0...v7.0.1
