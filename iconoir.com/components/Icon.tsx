@@ -45,7 +45,7 @@ export function Icon({ iconWidth, icon }: IconProps) {
   React.useEffect(() => {
     if (iconContainerRef.current) {
       htmlContentsRef.current = bakeSvg(
-        iconContainerRef.current.innerHTML,
+        (iconContainerRef.current.firstChild as SVGElement).outerHTML,
         iconContext.color || DEFAULT_CUSTOMIZATIONS.hexColor,
         iconContext.strokeWidth || DEFAULT_CUSTOMIZATIONS.strokeWidth,
       );
@@ -223,7 +223,7 @@ const Subtitle = styled.div<{ $iconWidth: number }>`
   font-size: 11px;
   font-weight: 500;
   line-height: 14.74px;
-  color: var(--black-40);
+  color: var(--black-60);
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
