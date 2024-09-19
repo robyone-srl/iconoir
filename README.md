@@ -6,6 +6,13 @@
 [![License](https://img.shields.io/github/license/iconoir-icons/iconoir?style=flat-square)](https://github.com/iconoir-icons/iconoir/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/998909400234348615?color=5865f2&label=Discord&style=flat-square)](https://discord.gg/txXcKCAmKW)
 
+## Informazioni sul fork
+
+Questo fork, rispetto alla repository originale, contiene le seguenti icone:
+
+1. Piede: `iconoir-foot`
+1. Osso: `iconoir-bone`
+
 ## What is Iconoir?
 
 Iconoir is an open-source library with 1500+ unique SVG icons, designed on a 24x24 pixels grid.
