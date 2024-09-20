@@ -30,6 +30,7 @@ export default async (ctx, target) => {
       const fileContent = await fs.readFile(icon.path, 'utf8');
 
       const transformedContent = fileContent
+        .replace(/\r\n/g, '')
         .replace(/\n/g, '')
         .replace(/(width|height)="[0-9]+px"/g, '')
         .replace(/[ ]+/g, ' ');
